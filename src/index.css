@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "poppins", sans-serif; */
+  font-family: "gg sans", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+img.w-full.h-full.object-cover.rounded-l {
+  border-radius: 38px;
+  border: 9px solid #fff;
+}
+.bgColor {
+  @apply bg-[#F1F4FA];
+}
+.bg-white.w-14.h-14.md\:p-3.md\:w-20.md\:h-20.flex.items-center.justify-center.rounded-2xl {
+  display: flex;
+  width: 80px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.textDarkGray {
+  color: #464646;
+}
+.textLightGray {
+  color: #737373;
+}
+.md\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  font-size: 24px;
+  line-height: 29px;
+}
+.absolute.top-0.left-0.right-0.bottom-0.w-full.h-full.bg-opacity-10.backdrop-filter.backdrop-blur-lg {
+  display: block !important;
+}
+
+img.w-\[26px\].h-\[26px\].md\:w-full.md\:h-full {
+  width: 35px;
+  height: 35px;
+}
+button.items-center.justify-center.px-\[15px\].min-w-\[13rem\].text-white.font-bold.text-xl.w-96.rounded-full.py-5.hidden.lg\:flex {
+ 
+  margin-left: -6px;
+}
+.bg-white.w-14.h-14.md\:p-3.md\:w-20.md\:h-20.flex.items-center.justify-center.rounded-2xl {
+  border-radius: 15px;
+}
+
+.bg-white.w-14.h-14.md\:p-3.md\:w-20.md\:h-20.flex.items-center.justify-center.rounded-2xl p {
+  font-size: 31px;
+}
+
+.w-full.relative.h-\[130px\].md\:h-\[260px\].overflow-visible {
+  height: 265px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+  .w-full.relative.h-\[130px\].md\:h-\[260px\].overflow-visible {
+    height: 165px;
+}
+  .bg-\[\#f9f9f9\].py-3.md\:px-0.md\:py-\[12px\].w-\[145px\].h-\[45px\].md\:h-\[50px\].md\:w-52.flex.items-center.justify-center.space-x-3.rounded-xl {
+    padding: 0px !important;
+    height: 45px;
+    width: 106px;
+}
+.bg-\[\#f9f9f9\].p-2.md\:px-0.md\:py-\[12px\].w-\[145px\].h-\[45px\].md\:w-52.md\:h-\[50px\].flex.items-center.justify-center.space-x-3.rounded-xl {
+  width: 106px;
+  height: 45px;
+}
+.absolute.z-10.w-\[100px\].h-\[100px\].md\:w-\[190px\].md\:h-\[190px\].transform.top-\[60\%\].flex.items-center.justify-start.left-0.ml-6 {
+  margin-left: 17px;
+  margin-top: -19px;
+}
+  .text-\[14px\] {
+    font-size: 11px;
+}
+button.flex.items-center.justify-center.px-\[15px\].bg-\[\#489EFF\].rounded-\[10px\].md\:rounded-2xl.md\:min-w-\[13rem\].text-white.font-semibold.text-\[15px\].md\:text-xl.h-\[44px\].md\:h-\[78px\].md\:w-\[400px\].w-full {
+  margin-top: 15px;
+}
+
+  h1.text-black.-m-9.ml-\[1px\].text-left.font-bold.text-2xl.md\:text-5xl {
+    margin: 0px 0px;
+}
+  img.w-full.h-full.object-cover.rounded-l {
+    border-radius: 26px;
+    border: 3px solid #fff;
+}
+.bg-white.w-14.h-14.md\:p-3.md\:w-20.md\:h-20.flex.items-center.justify-center.rounded-2xl {
+  display: flex;
+  width: 74px;
+  height: 70px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.bg-white.w-14.h-14.md\:p-3.md\:w-20.md\:h-20.flex.items-center.justify-center.rounded-2xl img{
+  width:22px;
+  height:22px;
+}
+  p.font-medium.text-\[\#323232\].text-sm.lg\:px-52.text-center {
+    font-size: 20px;
+    line-height: 25px;
+}
+.md\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  font-size: 17px;
+  line-height: 22px;
+  margin-top: 1px;
+  border-radius:1px;
+}
+h1.text-black.-m-9.ml-\[1px\].text-left.font-bold.text-2xl.md\:text-5xl {
+  margin-top: -46px;
+}
+}
